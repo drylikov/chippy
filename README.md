@@ -26,3 +26,4 @@ import '@vueware/chippy/dist/style.css'
 :max-chips="7"
 />
 ```
+
