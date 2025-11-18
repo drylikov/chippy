@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('@/assets/fonts/Inter-Light.ttf') format('truetype');
+}
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+html {
+	@apply h-full;
+}
+
+body {
+	@apply bg-stone-900 min-h-full grid place-items-center;
+}
+
+#__nuxt {
+	@apply w-full;
+}
