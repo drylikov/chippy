@@ -6,6 +6,7 @@
 ## How to Use
 
 
+
 ```js
 import Chippy from '@vueware/chippy'
 import '@vueware/chippy/dist/style.css'
